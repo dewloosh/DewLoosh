@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\dewloosh-core"
+		},
+		{
+			"path": "..\\dewloosh-math"
+		},
+		{
+			"path": "..\\dewloosh-geom"
+		},
+		{
+			"path": "..\\dewloosh-solid"
+		}
+	],
+	"settings": {}
+}

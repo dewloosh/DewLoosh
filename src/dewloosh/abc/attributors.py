@@ -6,8 +6,8 @@ from abc import abstractmethod
 def attributor(*attrs: str) -> FunctionType:
     """
     It renders a decorator a default behaviour. If a decorator
-    is called with a None argument, it returns the attribute, otherwise it 
-    returns the decorated function.
+    is called with a None argument, it returns the attribute, 
+    otherwise it returns the decorated function.
     """
     abstract = '__isabstractmethod__' in attrs
     if abstract:

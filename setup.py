@@ -1,5 +1,5 @@
-
 import setuptools
+from setuptools import find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -14,7 +14,7 @@ setuptools.setup(
     description="A collection of tools for common developer utility",
     long_description=long_description,   
     long_description_content_type="text/markdown",
-    packages=setuptools.find_packages(),   
+    packages=find_packages(where='src'),   
     classifiers=[
         'Development Status :: 3 - Alpha',     
         'License :: OSI Approved :: MIT License',   
@@ -22,7 +22,7 @@ setuptools.setup(
 		'Operating System :: OS Independent'
     ],                                      
     python_requires='>=3.6',                
-    py_modules=["dewloosh"],             
+    #py_modules=["dewloosh"],             
     package_dir={'':'src'},     
     install_requires=[            
           'setuptools',
