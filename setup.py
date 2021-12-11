@@ -14,7 +14,7 @@ setuptools.setup(
     description="A collection of tools for common developer utility",
     long_description=long_description,   
     long_description_content_type="text/markdown",
-    packages=find_packages(where='src'),   
+    packages=["dewloosh"],   
     classifiers=[
         'Development Status :: 3 - Alpha',     
         'License :: OSI Approved :: MIT License',   
