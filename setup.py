@@ -13,7 +13,7 @@ setuptools.setup(
     author="dewloosh",
     author_email = 'dewloosh@gmail.com',
     url = 'https://github.com/dewloosh/dewloosh',   
-    download_url = 'https://github.com/dewloosh/dewloosh/archive/refs/tags/0_0_4.zip',                     
+    download_url = 'https://github.com/dewloosh/dewloosh/archive/refs/tags/0_0_dev4.zip',                     
     description="A collection of tools for common developer utility",
     long_description=long_description,   
     long_description_content_type="text/markdown",
