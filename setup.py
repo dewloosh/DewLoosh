@@ -9,11 +9,11 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="dewloosh",                     
-    version="0.0.4",                        
+    version="0.0.dev4",                        
     author="dewloosh",
     author_email = 'dewloosh@gmail.com',
     url = 'https://github.com/dewloosh/dewloosh',   
-    download_url = 'https://github.com/dewloosh/dewloosh/archive/refs/tags/0_0_3.zip',                     
+    download_url = 'https://github.com/dewloosh/dewloosh/archive/refs/tags/0_0_4.zip',                     
     description="A collection of tools for common developer utility",
     long_description=long_description,   
     long_description_content_type="text/markdown",
