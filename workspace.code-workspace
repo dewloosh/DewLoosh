@@ -1,17 +1,19 @@
 {
 	"folders": [
 		{
-			"path": "..\\dewloosh-core"
+			"path": "..\\dewloosh-core\\src\\dewloosh\\core"
 		},
 		{
-			"path": "..\\dewloosh-math"
+			"path": "..\\dewloosh-math\\src\\dewloosh\\math"
 		},
 		{
-			"path": "..\\dewloosh-geom"
+			"path": "..\\dewloosh-geom\\src\\dewloosh\\geom"
 		},
 		{
-			"path": "..\\dewloosh-solid"
+			"path": "..\\dewloosh-solid\\src\\dewloosh\\solid"
+		},
+		{
+			"path": "..\\pyaxisvm\\src\\axisvm"
 		}
-	],
-	"settings": {}
+	]
 }
